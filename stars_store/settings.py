@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-05g)%2i_=z@%72+*+0m(e_h)c=cf%6xj@e7tkbq@90!e@ovzlk'
+SECRET_KEY = str(os.environ.get('DJANGO_SECRET_KEY'))
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = str(os.environ.get('DJANGO_DEBUG_MODE'))=="1"
 
 ALLOWED_HOSTS = []
 
@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'stars_store.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_admin',
-        'USER':'root',
-        'PASSWORD':'root',
-        'HOST':'admin_db',
-        'PORT':'3306',
+        'NAME': str( os.environ.get('DATABASE_NAME') ),
+        'USER': str( os.environ.get('DATABASE_USER') ),
+        'PASSWORD': str( os.environ.get('DATABASE_PASS') ),
+        'HOST': str( os.environ.get('DATABASE_HOST') ),
+        'PORT':str( os.environ.get('DATABASE_PORT') ),
     }
 }
 
