@@ -1,0 +1,59 @@
+[
+    {
+        "model":"users.user",
+        "pk":1,
+        "fields":{
+            "last_login": null,
+            "is_superuser": true,
+            "is_staff": false,
+            "is_active": true,
+            "first_name": "Admin",
+            "last_name": "Admin",
+            "date_joined": "2022-03-12T15:37:17.049349Z",
+            "email": "juniorosorio47@gmail.com",
+            "password": "pbkdf2_sha256$216000$Hl6AFteTecJF$9uGSwRfRw61FTwUoYnPeYX52S++rMjg3FORYPL/Hq9Q=",
+            "name": "Junior Admin",
+            "role": 1,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model":"users.user",
+        "pk":2,
+        "fields":{
+            "last_login": null,
+            "is_superuser": true,
+            "is_staff": false,
+            "is_active": true,
+            "first_name": "Editor",
+            "last_name": "Editor",
+            "date_joined": "2022-03-12T15:37:17.049349Z",
+            "email": "juniorosorio46@gmail.com",
+            "password": "pbkdf2_sha256$216000$Hl6AFteTecJF$9uGSwRfRw61FTwUoYnPeYX52S++rMjg3FORYPL/Hq9Q=",
+            "name": "Junior Editor",
+            "role": 2,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model":"users.user",
+        "pk":3,
+        "fields":{
+            "last_login": null,
+            "is_superuser": true,
+            "is_staff": false,
+            "is_active": true,
+            "first_name": "Viewer",
+            "last_name": "Viewer",
+            "date_joined": "2022-03-12T15:37:17.049349Z",
+            "email": "juniorosorio48@gmail.com",
+            "name": "Junior Viewer",
+            "password": "pbkdf2_sha256$216000$Hl6AFteTecJF$9uGSwRfRw61FTwUoYnPeYX52S++rMjg3FORYPL/Hq9Q=",
+            "role": 3,
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

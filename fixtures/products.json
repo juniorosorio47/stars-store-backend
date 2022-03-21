@@ -1,0 +1,26 @@
+[
+    {
+        "model":"products.product",
+        "pk":1,
+        "fields":{
+            "name": "Radiant VII",
+            "description": "This weaponless, workmanlike Republic Cruiser is the first craft seen in Star Wars: The Phantom Menace. It literally and figuratively sends the franchise to a new world when it delivers Qui-Gon Jinn and Obi-Wan Kenobi to Naboo.",
+            "image": "https://www.cnet.com/a/img/resize/8e7b6c6bdb823eaa4ff08d66e011ef76ae305103/hub/2016/09/15/626331fe-2b77-4055-b771-6a07d5e1eb28/starwarsshipsradiantviii.jpg?auto=webp&width=1092",
+            "price":20,
+            "inventory":20,
+            "multiple":1
+        }
+    },
+    {
+        "model":"products.product",
+        "pk":2,
+        "fields":{
+            "name": "Naboo Royal Cruiser",
+            "description": "While Padmé Amidala's sweet-looking, approximately 128-foot-long (39-meter) craft looks a bit like a sleek, stylized B-29 bomber, it has no bombs. But give it credit for this: Its swift destruction at the beginning of Star Wars: Attack of the Clones sets the plot in motion.",
+            "image": "https://www.cnet.com/a/img/resize/4e94034df1bf4893e2e1f3b1c082915d480724fb/hub/2016/09/15/a3e46973-0425-4c69-8a7b-3506b0059b58/starwarsshipsnabooroyalcruiser.jpg?auto=webp&width=1092",
+            "price":20,
+            "inventory":20,
+            "multiple":1
+        }
+    }
+]
