@@ -23,15 +23,15 @@ from .serializers import UserSerializer
 #         self.assertEqual(response.status_code,  status.HTTP_201_CREATED)
 #         pass
 
-class LoginTestCase(APITestCase):
-    def test_login(self):
-        data = {
-            "email":"juniorosorio46@gmail.com",
-            "password":"123456",
-        }
+# class LoginTestCase(APITestCase):
+#     def test_login(self):
+#         data = {
+#             "email":"juniorosorio46@gmail.com",
+#             "password":"123456",
+#         }
 
-        response = self.client.post("/api/users/login/", data)
+#         response = self.client.post("/api/users/login/", data)
 
-        print(response.json)
-        self.assertEqual(response.status_code,  status.HTTP_200_OK)
-        pass
+#         print(response.json)
+#         self.assertEqual(response.status_code,  status.HTTP_200_OK)
+#         pass

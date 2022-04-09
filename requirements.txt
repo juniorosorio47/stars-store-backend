@@ -5,4 +5,4 @@ pyjwt==2.3.0
 django-mysql==3.9
 django-environ==0.8.1
 django-cors-headers==3.11.0
-django-dotenv
+django-dotenv==1.4.2

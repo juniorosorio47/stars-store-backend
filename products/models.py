@@ -15,13 +15,15 @@ class Product(models.Model):
             return True
 
     def decrease_inventory(self, quantity):
-        if self.is_multiple(quantity):
+        if self.is_multiple(quantity) and quantity <= self.inventory:
             self.inventory -= quantity
+            return True
         else:
             return False
     
     def increase_inventory(self, quantity):
         self.inventory += quantity
+        return True
 
     def is_multiple(self, quantity):
         if self.multiple:
